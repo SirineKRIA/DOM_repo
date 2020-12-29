@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <!----------------------------------- Head ------------------------------->
+    <head>
+        <title>Shopping Cart</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet"
+              href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+              integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+              crossorigin="anonymous"/>
+        <!-- <script src="./js/shoppingCart.js"></script> -->
+        <!-- Link to css file -->
+        <link rel="stylesheet" href="./css/shoppingCart.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,800&display=swap"
+              rel="stylesheet">
+    </head>
+
+    <!----------------------------------- Body ------------------------------->
+    <body>
+        <!------------------------------- Header ----------------------------->
+        <header>
+            <nav id=""></nav>
+        </header>
+
+        <!------------------------------- Main ------------------------------->
+        <main>
+            <div>
+                <ul id="cart_item_table_head" type="none">
+                    <li><span id="prdt" class="table_name"><b>Product</b></span></li>
+                    <li><span id="desc" class="table_name"><b>Description</b></span></li>
+                    <li><span id="prc" class="table_name"><b>Unity Price</b></span></li>
+                    <li><span id="qnt" class="table_name"><b>Quantity</b></span></li>
+                    <li><span id="tot" class="table_name"><b>Total</b></span></li>
+                </ul>
+            </div>
+            <div class="cart_items">
+                <!-- PC item -->
+                <section class="cart_item">
+                    <div class="product">
+                        <i class="fas fa-heart icon"></i>
+                        <i class="fas fa-trash-alt icon"></i>
+                        <img class="article_photo" src="./res/elite_book.jpg" alt="product image">
+                        <div class="product_desc">
+                            <div class="product_info">
+                                <span class="product_name">Pc Portable HP EliteBook 830 G6 i7 8è Gén 8Go 512Go (6XD24EA)</span>
+                                <span class="product_reference"><b>Référence : 6XD24EA</b></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <span class="unit_price price_color">4929.000 TND</span> -->
+                    <span class="unit_price price_color">4 929.000 TND</span>
+                    <div class="quantity">
+                        <input class="product_number" type="text" value="1"></input>
+                        <div>
+                            <a class="icon_link" href="#">
+                                <i class="fas fa-plus-square"></i>
+                            </a>
+                            <a class="icon_link" href="#">
+                                <i class="fas fa-minus-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <span class="total_product_price price_color" id="pdt1_price">4 929,000 TND</span> -->
+                    <span class="total_product_price price_color">4 929.000 TND</span>
+                </section>
+                <!-- Mouse item -->
+                <section class="cart_item">
+                <div class="product">
+                    <i class="fas fa-heart icon"></i>
+                    <i class="fas fa-trash-alt icon"></i>
+                    <img class="article_photo" src="./res/mouse.jpg" alt="product image">
+                    <div class="product_desc">
+                        <div class="product_info">
+                            <span class="product_name">Souris de Présentation Sans Fil HP Elite - Noir (2CE30AA)</span>
+                            <span class="product_reference"><b>Référence : 2CE30AA</b></span>
+                        </div>
+                    </div>
+                </div>
+                <span class="unit_price price_color">215.000 TND</span>
+                <div class="quantity">
+                    <input class="product_number" type="text" value="1"></input>
+                    <div>
+                        <a class="icon_link" href="#">
+                            <i class="fas fa-plus-square"></i>
+                        </a>
+                        <a class="icon_link" href="#">
+                            <i class="fas fa-minus-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <span class="total_product_price price_color"  id="pdts2Price">215.000 TND</span>
+                </section>
+                <!-- Smart watch item -->
+                <section class="cart_item">
+                <div class="product">
+                    <i class="fas fa-heart icon"></i>
+                    <i class="fas fa-trash-alt icon"></i>
+                    <img class="article_photo" src="./res/AMAZFIT_watch.jpg" alt="product image">
+                    <div class="product_desc">
+                        <div class="product_info">
+                            <span class="product_name">Montre Connectée AMAZFIT GTS - Gold</span>
+                            <span class="product_reference"><b>Référence : AMZ-FIT-GTS-GOLD</b></span>
+                        </div>
+                    </div>
+                </div>
+                <span class="unit_price price_color"  id="pdt3Price">659.000 TND</span>
+                <div class="quantity">
+                    <input class="product_number" type="text" value="1"></input>
+                    <div>
+                        <a class="icon_link" href="#">
+                            <i class="fas fa-plus-square"></i>
+                        </a>
+                        <a class="icon_link" href="#">
+                            <i class="fas fa-minus-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <span class="total_product_price price_color"   id="pdts3Price">659.000 TND</span>
+                </section>
+                <div class="cart_total_delivery">
+                    <span id="total_title">Total</span>
+                    <span id="amount_to_pay" class="price_color">xxxxxxxxxxxxxx</span>
+                </div>
+            </div>
+        </main>
+
+        <!------------------------------- Footer ----------------------------->
+        <footer>
+
+        </footer>
+        <!------------------------------- Insert javascript file ------------->
+        <script type = "text/javascript" src='./js/shoppingCart.js'>
+        </script>
+    </body>
+</html>

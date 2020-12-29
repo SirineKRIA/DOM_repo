@@ -1,0 +1,171 @@
+body
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.price_color
+{
+    color: blue;
+}
+
+.table_name
+{
+    color: white;
+}
+
+#cart_item_table_head
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ababab;
+    margin: 20px 120px;
+    margin-bottom: -20px;
+    height: 30px;
+}
+
+#prdt
+{
+    display: block;
+    width: 100px;
+}
+
+.cart_items
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 20px 120px;
+}
+
+.cart_item
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    padding-right: 100px;
+    border: solid;
+    border-width: 1px;
+    border-color: #ababab;
+}
+
+.product
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.icon
+{
+    margin-left: 20px;
+    color: grey;
+}
+
+.article_photo
+{
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.article_photo
+{
+    width: 90px;
+    height: 90px;
+    border: solid;
+    border-width: 1px;
+    border-color: #ccbfbf;
+    margin-left: 50px;
+}
+
+.product_info
+{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 300px;
+    height: 90px;
+    padding: 10px;
+}
+
+.product_name
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.product_reference
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    color: #ababab;
+}
+
+.unit_price
+{
+    display: block;
+    width: 200px;
+}
+
+.quantity
+{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.product_number
+{
+    display: block;
+    width: 25px;
+    text-align: center;
+    margin-bottom: 5px;
+    border: 1px solid #ababab;
+}
+
+.quantity_icon
+{
+    width: 20px;
+    height: 20px;
+}
+
+.icon_link
+{
+    color: #699adb;
+}
+
+.cart_total_delivery
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    height: 50px;
+    border: solid 1px #ababab;
+}
+
+#total_title
+{
+    display: block;
+    width: 70px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border: solid 1px #ababab;
+}
+
+#amount_to_pay
+{
+    display: block;
+    width: 300px;
+    text-align: center;
+    border: solid 1px #ababab;
+}
